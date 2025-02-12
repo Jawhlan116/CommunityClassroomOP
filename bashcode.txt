@@ -1,0 +1,112 @@
+
+Admin@DESKTOP-17CHQC0 MINGW64 ~
+$ mkdir lab3
+
+Admin@DESKTOP-17CHQC0 MINGW64 ~
+$ cd labb3
+bash: cd: labb3: No such file or directory
+
+Admin@DESKTOP-17CHQC0 MINGW64 ~
+$ cd lab3
+
+Admin@DESKTOP-17CHQC0 MINGW64 ~/lab3
+$ git clone https://github.com/Jawhlan116/CommunityClassroomOP.git
+Cloning into 'CommunityClassroomOP'...
+remote: Enumerating objects: 3, done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 3 (from 1)
+Receiving objects: 100% (3/3), done.
+
+Admin@DESKTOP-17CHQC0 MINGW64 ~/lab3
+$ cd CommunityClassroomOP
+
+Admin@DESKTOP-17CHQC0 MINGW64 ~/lab3/CommunityClassroomOP (main)
+$ git branch Jawhlan
+
+Admin@DESKTOP-17CHQC0 MINGW64 ~/lab3/CommunityClassroomOP (main)
+$ git checkout Jawhlan
+Switched to branch 'Jawhlan'
+
+Admin@DESKTOP-17CHQC0 MINGW64 ~/lab3/CommunityClassroomOP (Jawhlan)
+$ git status
+On branch Jawhlan
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        dasgal1.py
+        dasgal2.py
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Admin@DESKTOP-17CHQC0 MINGW64 ~/lab3/CommunityClassroomOP (Jawhlan)
+$ git add dasgal1.py
+
+Admin@DESKTOP-17CHQC0 MINGW64 ~/lab3/CommunityClassroomOP (Jawhlan)
+$ git commit -m "j"
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'Admin@DESKTOP-17CHQC0.(none)')
+
+Admin@DESKTOP-17CHQC0 MINGW64 ~/lab3/CommunityClassroomOP (Jawhlan)
+$ git config --global user.email "jawkhlan2005@gmail.com"
+
+Admin@DESKTOP-17CHQC0 MINGW64 ~/lab3/CommunityClassroomOP (Jawhlan)
+$ git config --global user.name "Jawhlan116"
+
+Admin@DESKTOP-17CHQC0 MINGW64 ~/lab3/CommunityClassroomOP (Jawhlan)
+$ git commit -m "Uliraltai dasgal"
+[Jawhlan 18fa87e] Uliraltai dasgal
+ 1 file changed, 20 insertions(+)
+ create mode 100644 dasgal1.py
+
+Admin@DESKTOP-17CHQC0 MINGW64 ~/lab3/CommunityClassroomOP (Jawhlan)
+$ git push origin Jawhlan
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 550 bytes | 550.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+remote:
+remote: Create a pull request for 'Jawhlan' on GitHub by visiting:
+remote:      https://github.com/Jawhlan116/CommunityClassroomOP/pull/new/Jawhlan
+remote:
+To https://github.com/Jawhlan116/CommunityClassroomOP.git
+ * [new branch]      Jawhlan -> Jawhlan
+
+Admin@DESKTOP-17CHQC0 MINGW64 ~/lab3/CommunityClassroomOP (Jawhlan)
+$ git add dasgal2.py
+
+Admin@DESKTOP-17CHQC0 MINGW64 ~/lab3/CommunityClassroomOP (Jawhlan)
+$ git commit -m "delguurtei dasgal"
+[Jawhlan d160524] delguurtei dasgal
+ 1 file changed, 13 insertions(+)
+ create mode 100644 dasgal2.py
+
+Admin@DESKTOP-17CHQC0 MINGW64 ~/lab3/CommunityClassroomOP (Jawhlan)
+$ git push origin Jawhlan
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 607 bytes | 607.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/Jawhlan116/CommunityClassroomOP.git
+   18fa87e..d160524  Jawhlan -> Jawhlan
+
+Admin@DESKTOP-17CHQC0 MINGW64 ~/lab3/CommunityClassroomOP (Jawhlan)
+$ touch bashcode.txt
+
+Admin@DESKTOP-17CHQC0 MINGW64 ~/lab3/CommunityClassroomOP (Jawhlan)
+$ code bashcode.txt
+
+Admin@DESKTOP-17CHQC0 MINGW64 ~/lab3/CommunityClassroomOP (Jawhlan)
+$
